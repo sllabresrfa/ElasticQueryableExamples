@@ -11,5 +11,6 @@ namespace ElasticQueryable.Api.Types
         [KeywordField("company_name.raw")]
         [Prefix("company_name.raw")]
         public string? company_name { get; set; }
+        public Location? location { get; set; }
     }
 }
